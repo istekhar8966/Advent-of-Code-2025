@@ -2,7 +2,7 @@ fn is_repeated(num: i64) -> bool {
     let s = num.to_string();
 
     if s.len() % 2 != 0 {
-        return false; // cannot split evenly
+        return false;
     }
 
     let mid = s.len() / 2;
